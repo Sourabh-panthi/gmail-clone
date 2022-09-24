@@ -1,0 +1,77 @@
+.sendEmail {
+  position: absolute;
+  z-index: 9999;
+  bottom: 0px;
+  right: 50px;
+  width: 40%;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.sendEmail__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 10px;
+  background-color: #f2f7fd;
+}
+.sendEmail__header > h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #0567b1;
+}
+.buttons {
+  padding-right: 10px;
+}
+.sendEmail > form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.sendEmail > form > input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid whitesmoke;
+}
+.sendEmail__message {
+  flex: 1;
+}
+/* .sendEmail__inputMessage > input {
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid gray;
+} */
+.send__button {
+  width: 100%;
+  margin: 5px;
+}
+.send__button > .MuiButton-root {
+  background-color: #0a57d1;
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  padding: 6px 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+/* .message {
+  height: 150px;
+} */
+.sendMail__error {
+  background-color: white;
+  color: red;
+  text-align: right;
+  padding: 2px;
+  font-size: 10px;
+}

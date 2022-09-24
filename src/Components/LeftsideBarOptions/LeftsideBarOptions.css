@@ -1,0 +1,47 @@
+.sidebar__Options {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  color: #4e4e53;
+}
+
+.sidebar__Options > h3 {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.sidebar__Options > .MuiSvgIcon-root {
+  padding: 5px;
+  font-size: 30px;
+}
+.sidebar__Options > p {
+  display: none;
+  font-weight: 400;
+}
+.sidebar__Options:hover,
+.sidebar__Options > p,
+.sidebar__Options:hover > h3,
+.sidebar--active,
+.sidebar--active > p,
+.sidebar--active > h3 {
+  background-color: #d2e2fd;
+  color: #3b556d;
+  font-weight: 800;
+}
+.sidebar--active > .MuiSvgIcon-root {
+  color: black;
+}
+.sidebar__optionIcon:hover {
+  color: black !important;
+}
+.sidebar__Options:hover > p {
+  display: inline;
+}
+.sidebar--active > p {
+  display: inline !important;
+}

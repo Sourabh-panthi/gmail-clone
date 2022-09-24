@@ -1,0 +1,8 @@
+.app {
+  height: 100vh;
+  background-color: #f7f9fc;
+}
+.app__body {
+  display: flex;
+  height: 100vh;
+}
