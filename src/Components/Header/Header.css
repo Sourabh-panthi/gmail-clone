@@ -20,6 +20,7 @@
 .header__middle {
   flex: 0.7;
   width: 70%;
+  justify-content: center;
   display: flex;
   padding: 5px;
   margin: 5px;
